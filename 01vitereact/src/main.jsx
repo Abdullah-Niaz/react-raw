@@ -12,10 +12,17 @@ const reactElement = React.createElement(
   'Google'
 );
 
+function MyAPP(){
+  return (
+    <div>
+      <h1>Hello, world! React Learning Journey</h1>
+    </div>
+  )
+};
+
 createRoot(document.getElementById('root')).render(
-    reactElement
-  // <StrictMode>
-  //   {/* Uncomment the line below if you want to render the App component */}
-  //   {/* <App /> */}
-  // </StrictMode>
+  <>
+    <MyAPP/>
+    <App/>
+  </>
 );

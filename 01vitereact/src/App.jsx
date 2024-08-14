@@ -1,8 +1,9 @@
 function App() {
-  const [count, setCount] = useState(0)
-
+  // const [count, setCount] = useState(0)
+  const hello = "chai ur code"
   return (
-    <h1>Hello world | stating ract with vite</h1>
+    // exceuted expression/evaluated
+    <h1>Hello world | stating ract with vite {hello}</h1>
   )
 }
 
