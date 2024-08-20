@@ -13,6 +13,9 @@ function App() {
     setCount(counter);
     console.log("Increasing Value: ", Math.random());
   };
+
+
+  
   const removeValue = () => {
     if(counter != 0){
       counter--;
